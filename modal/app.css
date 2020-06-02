@@ -1,0 +1,26 @@
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  height: 700px;
+  width: 100%;
+  background-color: teal;
+  z-index: 10;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+}
+
+.close {
+  color: red;
+  padding: 10px;
+  cursor: pointer;
+}

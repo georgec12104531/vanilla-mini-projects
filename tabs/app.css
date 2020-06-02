@@ -10,7 +10,7 @@
   flex-direction: column;
   margin: 50px auto 50px auto;
 }
-  
+
 .image {
   width: 300px;
 }
@@ -27,6 +27,7 @@
 
 .tab {
   padding: 10px 20px 10px 20px;
+  cursor: pointer;
 }
 
 .selected-tab {
